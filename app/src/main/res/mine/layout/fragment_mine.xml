@@ -52,7 +52,7 @@
                     android:layout_weight="1"
                     android:ellipsize="end"
                     android:maxLines="1"
-                    android:text="ChayChan"
+                    android:text="叶荣荣"
                     android:textColor="@color/white"
                     android:textSize="16.0sp"/>
 

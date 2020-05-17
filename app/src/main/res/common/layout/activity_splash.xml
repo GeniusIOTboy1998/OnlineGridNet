@@ -19,6 +19,6 @@
         android:layout_marginBottom="25dp"
         android:background="@color/white"
         android:scaleType="centerInside"
-        android:src="@mipmap/splash_banner"
+        android:src="@drawable/netrong"
         android:visibility="visible"/>
 </LinearLayout>
