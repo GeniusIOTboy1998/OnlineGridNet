@@ -1,7 +1,7 @@
 <resources>
-    <string name="dynamic">动态</string>
-    <string name="fans">粉丝</string>
-    <string name="week_visitor">7天访客</string>
+    <string name="dynamic"></string>
+    <string name="fans"></string>
+    <string name="week_visitor"></string>
 
     <string name="collect">收藏</string>
     <string name="history">历史</string>

@@ -66,7 +66,7 @@
 
             </LinearLayout>
 
-            <!--头部动态、粉丝、7天访客-->
+            <!-- 删除掉原本的 （动态、粉丝、7天访客）发现有UI上的错误 -->
             <LinearLayout
                 android:id="@+id/ll_count"
                 android:layout_width="fill_parent"
@@ -77,92 +77,24 @@
                 android:gravity="center_vertical"
                 android:orientation="horizontal">
 
-                <LinearLayout
-                    android:layout_width="0.0dip"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.0"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:alpha="0.9"
-                        android:text="0"
-                        android:textColor="@color/white"
-                        android:textSize="16.0sp"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
-                        android:alpha="0.5"
-                        android:text="@string/dynamic"
-                        android:textColor="@color/white"
-                        android:textSize="12.0sp"/>
-
-                </LinearLayout>
 
                 <View
                     android:layout_width="0.5dip"
                     android:layout_height="38.0dip"
                     android:background="@color/color_1affffff"/>
 
-                <LinearLayout
-                    android:layout_width="0.0dip"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.0"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:alpha="0.9"
-                        android:text="0"
-                        android:textColor="@color/white"
-                        android:textSize="16.0sp"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
-                        android:alpha="0.5"
-                        android:text="@string/fans"
-                        android:textColor="@color/white"
-                        android:textSize="12.0sp"/>
-                </LinearLayout>
 
                 <View
                     android:layout_width="0.5dip"
                     android:layout_height="38.0dip"
                     android:background="@color/color_1affffff"/>
 
-                <LinearLayout
-                    android:layout_width="0.0dip"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.0"
-                    android:gravity="center"
-                    android:orientation="vertical">
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:alpha="0.9"
-                        android:text="0"
-                        android:textColor="@color/white"
-                        android:textSize="16.0sp"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
-                        android:alpha="0.5"
-                        android:text="@string/week_visitor"
-                        android:textColor="@color/white"
-                        android:textSize="12.0sp"/>
-                </LinearLayout>
             </LinearLayout>
+            <!-- 此处原本应该遗弃 -->
+
+
+
 
             <!--内容-->
             <LinearLayout
